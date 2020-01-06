@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parametrization test suite">
+<test name = "parametrization">
+<parameter name="browser" value="chrome"/>
+<parameter name="username" value="administrator"/>
+<parameter name="password" value="1"/>
+<classes>
+			<class name="Selenium.Test.identifyxpath" />
+		</classes>
+</test>
+</suite> <!-- Suite -->

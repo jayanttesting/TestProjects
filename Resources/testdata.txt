@@ -1,0 +1,9 @@
+Enter DATA
+Name and person
+class
+employee is
+Salary
+Organization
+Address
+batch
+department

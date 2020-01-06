@@ -1,0 +1,55 @@
+{
+  "Rule": {
+    "__type": "AndroidSamsungAddDevicesRule",
+    "DeviceFamily": 6,
+    "RuleId": 0,
+    "Name": "Jayant Rule",
+    "Targets": {
+      "Groups": [
+        {
+          "Id": "0000000001.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000.0000000000"
+        }
+      ],
+      "Devices": []
+    },
+    "Priority": 0,
+    "StartDate": "/Date(1539256789053)/",
+    "IsEnabled": true,
+    "RuleTag": "669611F2-06A1-CFA4-C8E8-E94A7E944A1D",
+    "FilterByTag": {
+      "Tag": "669611F2-06A1-CFA4-C8E8-E94A7E944A1D"
+    },
+    "FilterByIP": null,
+    "FilterByAgent": null,
+    "EnrollOption": 0,
+    "PublishCheckAction": "publish",
+    "PublishUncheckAction": null,
+    "SilentAdminActivation": true,
+    "SkipGoogleAccountAddition": false,
+    "EnrollmentAction": 1,
+    "IsDefaultRule": true,
+    "UnifiedEnrollmentMappings": null,
+    "EnrollmentCertificateId": null,
+    "EnrollmentCertificateName": "",
+    "DeviceIdentityCertificateRetrievalMethod": null,
+    "LdapConnection": null,
+    "SsoConnectionId": null,
+    "AuthenticationMode": 0,
+    "AuthorizedLdapGroups": null,
+    "LdapFallback": false,
+    "DeviceIdentityCertificateId": 0,
+    "DeviceIdentityCertificateName": "Internal MobiControl CA",
+    "TermsAndConditionsRuleId": null,
+    "TermsAndConditions": null,
+    "AndroidAccountType": 0,
+    "AndroidEnterpriseId": null,
+    "ApkType": 0,
+    "ApkList": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "DeviceNameTemplate": "AndroidPlus %AUTONUM%"
+  }
+}

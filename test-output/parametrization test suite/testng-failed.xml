@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [parametrization test suite]">
+  <parameter name="password" value="1"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="username" value="administrator"/>
+  <test name="parametrization">
+    <parameter name="password" value="1"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="administrator"/>
+    <classes>
+      <class name="Selenium.Test.identifyxpath"/>
+    </classes>
+  </test> <!-- parametrization -->
+  <test name="parametrization(failed)">
+    <parameter name="password" value="1"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="administrator"/>
+    <classes>
+      <class name="Selenium.Test.identifyxpath">
+        <methods>
+          <include name="testcase2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Selenium.Test.identifyxpath -->
+    </classes>
+  </test> <!-- parametrization(failed) -->
+</suite> <!-- Failed suite [parametrization test suite] -->
